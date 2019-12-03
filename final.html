@@ -8,7 +8,9 @@
     <title>College Search</title>
 </head>
 <body>
-    <form>
+    <img id='school_img' class='hide' src="" alt="">
+    <form id="survey">
+        <p>Region:</p>
         <select name="region">
              <option value="east">East</option>
              <option value="south">South</option>
@@ -16,7 +18,31 @@
              <option value="southwest">Southwest</option>
              <option value="west">West</option>
         </select>
+        <p>GPA:</p>
+        <select name="gpa">
+            <option value="high">Greater than 3.50</option>
+            <option value="medium">2.75-3.5</option>
+            <option value="low">Less than 2.75</option>
+        </select>
+        <p>School Size:</p>
+        <select name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+    <p>School Type:</p>
+    <select name="">
+        <option value="private">Private</option>
+        <option value="public">Public</option>
+    </select>
+    <p>Major:</p>
+    <select name="">
+        <option value="art">Art</option>
+        <option value="science">Science</option>
+    </select>
     </form>
+    <p class='hide' id='school_name'>name</p>
+    <button id="submit">Submit</button>
     <script src=final.js></script>
 </body>
 </html>
