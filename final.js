@@ -112,19 +112,19 @@ function results(region, size, type) {
 function whatname(x) {
     switch(x) {
         case 0:
-        return ''
+        return 'Simmons University'
         case 1:
-        return ''  
+        return 'Northen Vermont University'  
         case 2:
-        return ''  
+        return 'Tufts University'  
         case 3:
-        return ''  
+        return 'University of Massachusetts Boston'  
         case 4:
-        return ''  
+        return 'Northeastern University'  
         case 5:
-        return ''  
+        return 'University of Connecticut'  
         case 6:
-        return ''  
+        return 'King University'  
         case 7:
         return ''  
         case 8:
@@ -177,64 +177,64 @@ function whatname(x) {
 function whatimg(x) {
     switch(x){
         case 0:
-        return ''
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/1375_Photo.jpg" alt="" >'
         case 1:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/3124_Photo.jpg" alt="northernVermontUniversity">'  
         case 2:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/1245_Photo.jpg" alt="" >'  
         case 3:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/3567_Photo.jpg" alt="" >'
         case 4:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/2802_Photo.jpg" alt="" >'  
         case 5:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/492_Photo.jpg" alt="" >'  
         case 6:
-        return ''  
+        return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/3319_Photo.jpg" alt="" >'  
         case 7:
-        return ''  
+        return '<img src="" alt="" >'  
         case 8:
-        return ''  
+        return '<img src="" alt="" >'  
         case 9:
-        return ''  
+        return '<img src="" alt="" >'  
         case 10:
-        return ''  
+        return '<img src="" alt="" >'  
         case 11:
-        return ''  
+        return '<img src="" alt="" >'  
         case 12:
-        return ''  
+        return '<img src="" alt="" >'  
         case 13:
-        return ''      
+        return '<img src="" alt="" >'      
         case 14:
-        return ''  
+        return '<img src="" alt="" >'  
         case 15:
-        return ''  
+        return '<img src="" alt="" >'  
         case 16:
-        return ''  
+        return '<img src="" alt="" >'  
         case 17:
-        return ''  
+        return '<img src="" alt="" >'  
         case 18:
-        return ''  
+        return '<img src="" alt="" >'  
         case 19:
-        return ''  
+        return '<img src="" alt="" >'  
         case 20:
-        return ''  
+        return '<img src="" alt="" >'  
         case 21:
-        return ''  
+        return '<img src="" alt="" >'  
         case 22:
-        return ''  
+        return '<img src="" alt="" >'  
         case 23:
-        return ''  
+        return '<img src="" alt="" >'  
         case 24:
-        return ''  
+        return '<img src="" alt="" >'  
         case 25:
-        return ''  
+        return '<img src="" alt="" >'  
         case 26:
-        return ''  
+        return '<img src="" alt="" >'  
         case 27:
-        return ''  
+        return '<img src="" alt="" >'  
         case 28:
-        return ''  
+        return '<img src="" alt="" >'  
         case 29:
-        return ''  
+        return '<img src="" alt="" >'  
 }
 }
