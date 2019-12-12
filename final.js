@@ -1,4 +1,6 @@
 whatschool = null;
+collegeList = [];
+
 submit.onclick = function() {
     if (survey.classList.contains('hide') == false) {
         survey.classList.add('hide');
@@ -8,18 +10,36 @@ submit.onclick = function() {
         whatschool = results(document.getElementById('region').value, document.getElementById('size').value, document.getElementById('type').value);
         school_name.innerHTML = whatname(whatschool);
         school_img.innerHTML = whatimg(whatschool);
+        add.classList.remove('hide');
+        view.classList.remove('hide');
     }
     else {
         survey.classList.remove('hide');
         submit.innerHTML = "Submit";
         school_name.classList.add('hide');
         school_img.classList.add('hide');
+        add.classList.add('hide');
     }
 }
 
-document.getElementById('region').onchange = function() {
-switch(document.getElementById('region') {
+add.onclick = function() {
+    collegeList.push(whatname(whatschool));
 }
+
+view.onclick = function () {
+    collegeList.forEach(viewList);
+    function viewList(item) {
+        list.innerHTML = list.innerHTML + item + "<br>";
+    }
+    list.classList.remove('hide');
+    reset.classList.remove('hide');
+}
+
+reset.onclick = function() {
+    collegeList = [];
+    list.innerHTML = "";
+    reset.classList.add("hide");
+    view.classList.add('hide');
 }
 
 function results(region, size, type) {
@@ -177,7 +197,7 @@ function whatname(x) {
         return 'University of Southern California'  
         case 29:
         return 'University of Colorado Boulder'  
-}
+    }
 }
 
 function whatimg(x) {
@@ -242,5 +262,5 @@ function whatimg(x) {
         return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/3341_Photo.jpg" alt="" >'  
         case 29:
         return '<img src="https://secure-media.collegeboard.org/CollegePlanning/media/image/photo/994_Photo.jpg" alt="" >'  
-}
+    }
 }
