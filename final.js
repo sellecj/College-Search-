@@ -135,6 +135,10 @@ function results(region, size, type) {
     }
 }
 
+// A new thing that I learned was how to use switch. Switch is similar to making a function with many if statements, but is more simple to write as you don't have to fully write all of the condtitions.
+// To use switch you first need to write switch(var) where var is the variable that you are checking. Then you write case:value which is basically the same as if(var == value) {}, then you need to either end the code with break or return a value with return to end the code.
+// Another thing you can do with switch is make a default case that gives a response if the variable doesn't equal any of the other values, which is pretty much equalivalent to using an else conditional .
+
 function whatname(x) {
     switch(x) {
         case 0:
